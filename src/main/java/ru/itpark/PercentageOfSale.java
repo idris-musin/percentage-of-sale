@@ -9,7 +9,7 @@ public class PercentageOfSale {
 
         for (int sale : sales) {
             if (sale > minSumSale) {
-                sumBonus += (int)((sale - minSumSale) / 100) * percent;
+                sumBonus += (sale - minSumSale) / 100 * percent;
             }
         }
 
